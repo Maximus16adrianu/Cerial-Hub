@@ -31,21 +31,20 @@ local ToggleButtons = {}
 local ToggleKey = Enum.KeyCode.RightShift
 local EspToggleKey = Enum.KeyCode.P
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ResetOnSpawn = false
-
 local InstructionText = Instance.new("TextLabel")
 InstructionText.Parent = ScreenGui
 InstructionText.BackgroundTransparency = 1
 InstructionText.Position = UDim2.new(0.5, -150, 0, 20)  -- Adjust position as needed
 InstructionText.Size = UDim2.new(0, 300, 0, 30)
-InstructionText.Font = Enum.Font.GothamSemibold
 InstructionText.Text = "Open with RightShift and press ESC to be able to move your mouse"
 InstructionText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InstructionText.Font = Enum.Font.GothamSemibold
 InstructionText.TextSize = 16
-InstructionText.TextAlign = Enum.TextXAlignment.Center
 InstructionText.TextStrokeTransparency = 0.8
 InstructionText.TextTransparency = 0.2
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ResetOnSpawn = false
 
 -- Blur Effect Background
 BlurEffect.Parent = MainFrame
