@@ -181,7 +181,7 @@ local function fetchGitHubData(url)
 end
 
 local function checkCredentials(username, password)
-    local url = "https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Main%20Loader/database.json"
+    local url = "https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Main%20Loader/Loader/database.json"
     local success, data = fetchGitHubData(url)
 
     if not success then
