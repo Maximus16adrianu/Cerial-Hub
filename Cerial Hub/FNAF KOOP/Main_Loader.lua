@@ -167,20 +167,20 @@ end
 -- Example Scripts (you can add/remove these with their respective server IDs)
 local scripts = {
     { name = "FNAF 1", description = "Fnaf Koop game 1 gui", script = [[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/FNAF%20KOOP/FNAF_1.lua"))()
+        print("WORKED")
     ]], serverID = "12497348201" },
     
     { name = "FNAF 2", description = "Fnaf Koop game 2 gui", script = [[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/FNAF%20KOOP/FNAF_2.lua"))()
-    ]], serverID = "12497354347" },
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Roblox/refs/heads/main/basic_Fly.lua"))()
+    ]], serverID = "12345678" },
     
     { name = "FNAF 3", description = "Fnaf Koop game 3 gui", script = [[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/FNAF%20KOOP/FNAF_3.lua"))()
-    ]], serverID = "12497360072" },
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Roblox/refs/heads/main/basic_Fly.lua"))()
+    ]], serverID = "false" },
     
     { name = "FNAF 4", description = "Fnaf Koop game 4 gui", script = [[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/FNAF%20KOOP/FNAF_4.lua"))()
-    ]], serverID = "12497365956" },
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Roblox/refs/heads/main/basic_Fly.lua"))()
+    ]], serverID = "87654321" },
 }
 
 -- Create buttons for scripts
