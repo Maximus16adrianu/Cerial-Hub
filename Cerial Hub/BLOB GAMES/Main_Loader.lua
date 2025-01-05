@@ -169,6 +169,11 @@ local scripts = {
     { name = "Eat Blobs to Grow MASSIVE", description = "Game Name: Eat Blobs to Grow MASSIVE", script = [[
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/BLOB%20GAMES/PLAYER_TELEPORT.lua"))()
     ]], serverID = "82647344334312" },
+
+    { name = "Eat Blobs Simulator", description = "Game Name: Eat Blobs Simulator", script = [[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/BLOB%20GAMES/PLAYER_TELEPORT.lua"))()
+    ]], serverID = "8200787440" },
+
 }
 
 -- Create buttons for scripts
