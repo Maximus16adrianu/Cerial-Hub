@@ -239,7 +239,7 @@ SubmitButton.MouseButton1Click:Connect(function()
         end)
 
         print("Executing additional script...")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/FNAF%20KOOP/Main_Loader.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Main%20Loader/Script_Hub_Loader/Script_Hub_Loader.lua"))()
     end
 end)
 
