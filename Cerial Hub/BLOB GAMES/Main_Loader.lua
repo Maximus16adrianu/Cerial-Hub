@@ -167,7 +167,7 @@ end
 -- Example Scripts (you can add/remove these with their respective server IDs)
 local scripts = {
     { name = "Eat Blobs to Grow MASSIVE", description = "Game Name: Eat Blobs to Grow MASSIVE", script = [[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/BLOB%20GAMES/Main_Loader.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maximus16adrianu/Cerial-Hub/refs/heads/main/Cerial%20Hub/BLOB%20GAMES/PLAYER_TELEPORT.lua"))()
     ]], serverID = "82647344334312" },
 }
 
